@@ -27,7 +27,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    monacoEditorPlugin(),
+    monacoEditorPlugin({}),
     checker({ typescript: true }),
     svgr(),
   ],
